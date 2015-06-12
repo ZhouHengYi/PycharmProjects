@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../BaiDuTieBa/.idea/BaiDuTieBa.iml" filepath="$PROJECT_DIR$/../BaiDuTieBa/.idea/BaiDuTieBa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CRM_Account_Activity.iml" filepath="$PROJECT_DIR$/.idea/CRM_Account_Activity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../USA_Article/.idea/USA_Article.iml" filepath="$PROJECT_DIR$/../USA_Article/.idea/USA_Article.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../University/.idea/University.iml" filepath="$PROJECT_DIR$/../University/.idea/University.iml" />
+    </modules>
+  </component>
+</project>
+

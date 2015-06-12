@@ -1,0 +1,29 @@
+2015-05-29 21:06:19,319 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-29 21:09:15,118 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-29 21:09:56,395 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-29 21:19:38,048 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-29 21:19:46,697 - Log_Utility.py:19 - tst - (<type 'exceptions.Exception'>, ':', UnicodeEncodeError('gb2312', u'\u82b6\u5730\u6bd5\u80af\u5b66\u9662', 0, 1, 'illegal multibyte sequence'))
+2015-05-29 21:19:46,697 - Log_Utility.py:19 - tst - (<type 'exceptions.Exception'>, ':', UnicodeEncodeError('gb2312', u'\u82b6\u5730\u6bd5\u80af\u5b66\u9662', 0, 1, 'illegal multibyte sequence'))
+2015-05-29 21:24:14,566 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-29 21:25:08,367 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-29 21:25:54,157 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-29 21:27:29,107 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-29 21:28:23,081 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-29 21:28:32,473 - Log_Utility.py:19 - tst - (<type 'exceptions.Exception'>, ':', UnicodeEncodeError('gb2312', u'\u82b6\u5730\u6bd5\u80af\u5b66\u9662', 0, 1, 'illegal multibyte sequence'))
+2015-05-29 21:28:32,473 - Log_Utility.py:19 - tst - (<type 'exceptions.Exception'>, ':', UnicodeEncodeError('gb2312', u'\u82b6\u5730\u6bd5\u80af\u5b66\u9662', 0, 1, 'illegal multibyte sequence'))
+2015-05-29 21:31:21,443 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-29 21:32:43,966 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-29 22:28:24,690 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-29 22:58:59,342 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-30 00:56:57,121 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-30 00:59:08,385 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-30 01:00:55,180 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-30 01:02:14,766 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-30 01:32:26,167 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-30 01:36:12,203 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-30 01:36:51,650 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-30 03:53:00,634 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-30 04:25:13,486 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-30 04:59:06,312 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-30 05:00:12,526 - Log_Utility.py:19 - tst - -------Start-------
+2015-05-30 09:16:17,743 - Log_Utility.py:19 - tst - -------Start-------
