@@ -19,8 +19,8 @@ import urllib2
 from pyquery import PyQuery as pq
 from Utility.MySqlUtility import MySql_Utility
 class USA_ExInfo(object):
-
-    def parse(url):
+    @staticmethod
+    def run(url):
         items = MySql_Utility().GetUniversity_USASysno()
         print len(items)
         for item in items:

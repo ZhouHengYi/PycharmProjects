@@ -11,6 +11,8 @@
 from University.USA_University import USA_University
 from University.USA_Major import USA_Major
 from University.USA_Ranks import USA_Ranks
+from University.USA_ExInfo import USA_ExInfo
+from University.USA_DownLoad import DownLoadLogo
 #-------- 程序入口处 ------------------
 print u"""#---------------------------------------
 #   程序：抓取美国学校排名相关数据
@@ -21,12 +23,14 @@ print u"""#---------------------------------------
 #   1. 美国大学数据
 #   2. 美国专业数据
 #   3. 美国排名数据
-#   0. 1-7
+#   4. 大学扩展信息
+#   5. 大学图片
+#   0. 1-5
 #---------------------------------------
 """
 print u'请输入要执行命令编号：'
-#id = raw_input()
-id=3
+id = raw_input()
+#id=3
 if int(id) == 1:
     #抓取美国大学数据
     p = 1
@@ -40,3 +44,10 @@ elif int(id) == 2:
 elif int(id) == 3:
     #抓取美国排名数据
     USA_Ranks.run()
+elif int(id) == 4:
+    #抓取美国扩展信息
+    USA_ExInfo.run()
+elif int(id) == 5:
+    #抓取美国大学Logo
+    DownLoadLogo.run()
+    #DownLoadLogo().main()
