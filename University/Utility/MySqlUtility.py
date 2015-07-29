@@ -14,8 +14,8 @@ import MySQLdb.cursors
 
 from USATypeConvert_Utility import USATypeConvert_Utility
 from Log_Utility import Log_Utility
-from Items.USA_Item import USAUniversity_Itemsn
-from Utility.JsonUtility import JsonUtility
+import Items.USA_Item
+import Utility.JsonUtility
 import json
 class MySql_Utility(object):
     Log = Log_Utility()
@@ -28,7 +28,7 @@ class MySql_Utility(object):
                 cursorclass = MySQLdb.cursors.DictCursor,
                 charset = 'utf8',
                 use_unicode = True,)
-    #添加美国专业基础数据
+    #添加美国专业基础数据 
     def InsertUniversity_USAMajor(self,name,type,typeName,rurl):
         conn=MySql_Utility.GetConnection(self)
         cur=conn.cursor()

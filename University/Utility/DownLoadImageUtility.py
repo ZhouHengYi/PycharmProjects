@@ -12,7 +12,7 @@ class DownLoadImageUtility(object):
         p = 1
         for item in items:
             url = item["url"]
-            englisherName = item["englisherName"]
+            englisherName = item["englishname"]
             id = item["id"]
             fileName = item["fileName"]
             t = ThreadUtility(p, DownLoadImageUtility.down(url,englisherName,id,fileName))
@@ -34,7 +34,7 @@ class DownLoadImageUtility(object):
             web = urllib.urlopen(url.encode("utf-8"))
             jpg = web.read()
             name =UK_Convert().ConvertEnglishName(englisherName)
-            DstDir="C:/"+fileName+"/" + name + "/"
+            DstDir="/Users/henry/git/"+fileName+"/" + name + "/"
 
             if(os.path.exists(DstDir)!=True):
                 os.makedirs(DstDir)
